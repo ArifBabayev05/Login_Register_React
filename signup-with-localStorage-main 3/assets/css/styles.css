@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+
+.form-group{ margin: 20px 0; }
+input{ height: 30px; width: 100%; padding: 5px; }
+button{ 
+    background: rgba(30, 143, 255, 0); 
+    color: #fff; 
+    padding: 10px; 
+    cursor: pointer;
+    border: none;
+}
+body{
+    background-image: linear-gradient(to left, #051937, #122d53, #1e4371, #295b90, #3374b0);
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+header{
+    background: dodgerblue;
+    color: #fff;    
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+a{
+    color: rgba(0, 0, 255, 0.708);
+ text-decoration: none !important;
+}
